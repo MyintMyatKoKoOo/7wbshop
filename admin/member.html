@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../library/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="../library/font-awsome/css/all.min.css">
+        <link rel="stylesheet" href="../css/glider.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" href="../images/shorticon.png">
+        <title>WB_Shop</title>
+    </head>
+    <body>
+        <!-- HEADER START -->
+        <header id="header">
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarContent">
+                <span><i class="fas fa-stream"></i></span>
+                </button>
+                <div class="col-3" id="header__logo">
+                    <a class="navbar-brand font-header" href="../index.html" id="header__logo-text">
+                    WB SHOP</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <div class="col-6">
+                        <ul class="navbar-nav mr-auto" id="header__list">
+                            <li class="nav-item active">
+                                <a class="nav-link font-header" href="../new.html">NEW</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="../men.html">MEN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="../women.html">WOMEN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="../accessories.html">ACCESSORIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="../help.html">HELP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="../about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="../contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-3 text-right">
+                    <a href="admin.html">
+                        <i class="fas fa-user-shield" title="Admindashboard"></i>
+                    </a>
+                    <i class="fas fa-search ml-3" id="search" title="Search"></i>
+                    <a href="../login.html">
+                        <i class="fas fa-sign-in-alt ml-3" title="CreateAccount & Singin"></i>
+                    </a>
+                    <a href="../cart.html">
+                        <i class="fas fa-shopping-cart ml-3" title="shopcart"></i>
+                    </a>
+                    <span id="header__carticon">2</span>
+                </div>
+            </nav>
+        </header>
+        <!-- ADMIN SIDE START -->
+        <div class="row mr-0">
+            <button class="btn pl-4 pr-3 my-3" id="adminside__btn">
+            <i class="fas fa-arrow-right"></i>
+            </button>
+            <div class="d-flex flex-column col-3 col-md-1" id="adminside">
+                <div class="side__box p-3 pt-4" id="adminside__box">
+                    <a href="admin.html" class="font-body">
+                        <i class="fas fa-user-shield fa-2x"></i>
+                        <span>Admin</span>
+                    </a>
+                </div>
+                <div class="side__box p-3 pt-4" id="adminside__box">
+                    <a href="chart.html" class="font-body">
+                        <i class="fas fa-chart-line fa-2x"></i>
+                        <span>Chart</span>
+                    </a>
+                </div>
+                <div class="side__box p-3 pt-4" id="adminside__box">
+                    <a href="table.html" class="font-body">
+                        <i class="fas fa-table fa-2x"></i>
+                        <span>Tables</span>
+                    </a>
+                </div>
+                <div class="side__box p-3 pt-4" id="adminside__box">
+                    <a href="create.html" class="font-body">
+                        <i class="fas fa-folder-plus fa-2x"></i>
+                        <span>Create</span>
+                    </a>
+                </div>
+                <div class="side__box p-3 pt-4" id="adminside__box">
+                    <a href="member.html" class="font-body">
+                        <i class="fas fa-users-cog fa-2x"></i>
+                        <span>Member</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-11 offset-sm-1 my-5" id="adminmember">
+                <div class="table-responsive mb-4" id="user">
+                    <table class="table table-striped">
+                        <thead class="font-header">
+                            <tr>
+                                <th scope="col">Id</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Role</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Password</th>
+                                <th scope="col">Created</th>
+                                <th scope="col">Updated</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody class="font-body text-center">
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mko</td>
+                                <td>Admin</td>
+                                <td>mko@gmail.com</td>
+                                <td>mko@21214</td>
+                                <td>2016-2-4 02:24:00</td>
+                                <td>2019-4-24 01:22:54</td>
+                                <td>
+                                    <button class="btn-success mt-2">Edit</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Mg hoter</td>
+                                <td>Poster</td>
+                                <td>hoter@gmail.com</td>
+                                <td>hoter22@$</td>
+                                <td>2020-3-4 02:24:21</td>
+                                <td>00-00-00 00:00:00</td>
+                                <td>
+                                    <button class="btn-success mt-2">Edit</button>
+                                    <button class="btn-danger mt-2">Ban</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Su Yuri</td>
+                                <td>Manger</td>
+                                <td>Yuri@gmail.com</td>
+                                <td>12345Yurisu@</td>
+                                <td>2019-3-4 02:57:2</td>
+                                <td>2020-7-26 06:2:19</td>
+                                <td>
+                                    <button class="btn-success mt-2">Edit</button>
+                                    <button class="btn-danger mt-2">Ban</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <script src="../library/bootstrap/jquery-3.5.1.slim.min.js"></script>
+        <script src="../library/bootstrap/popper.min.js"></script>
+        <script src="../library/bootstrap/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script src="../js/admin.js"></script>
+    </body>
+</html>

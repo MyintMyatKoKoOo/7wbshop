@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="library/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="library/font-awsome/css/all.min.css">
+        <link rel="stylesheet" href="css/glider.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="images/shorticon.png">
+        <title>WB_Shop</title>
+    </head>
+    <body>
+        <!-- HEADER START -->
+        <header id="header">
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarContent">
+                <span><i class="fas fa-stream"></i></span>
+                </button>
+                <div class="col-3" id="header__logo">
+                    <a class="navbar-brand font-header" href="index.html" id="header__logo-text">
+                    WB SHOP</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <div class="col-6">
+                        <ul class="navbar-nav mr-auto" id="header__list">
+                            <li class="nav-item active">
+                                <a class="nav-link font-header" href="new.html">NEW</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="men.html">MEN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="women.html">WOMEN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="accessories.html">ACCESSORIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="help.html">HELP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-3 text-right">
+                    <a href="admin/admin.html">
+                        <i class="fas fa-user-shield" title="Admindashboard"></i>
+                    </a>
+                    <i class="fas fa-search ml-3" id="search" title="Search"></i>
+                    <a href="login.html">
+                        <i class="fas fa-sign-in-alt ml-3" title="CreateAccount & Singin"></i>
+                    </a>
+                    <a href="cart.html">
+                        <i class="fas fa-shopping-cart ml-3" title="shopcart"></i>
+                    </a>
+                    <span id="header__carticon">2</span>
+                </div>
+            </nav>
+        </header>
+        <!-- Modal -->
+        <div class="modal fade" id="mymodal" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title font-header" id="exampleModalLongTitle">
+                        <i class="far fa-question-circle mr-3"></i>Help</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <video width="450" height="300" autoplay loop="true">
+                            <source src="images/help2.mp4" type="video/mp4" width="1000" height="50">
+                            <source src="movie.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="font-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro qui corporis dolores minus natus ducimus voluptatem, voluptas perferendis officia fugiat!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn font-body" id="help__btn" data-dismiss="modal">I Know</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--help section start here -->
+        <section id="help" class="my-5 px-3 py-5 bg-light">
+            <div class="row m-0 ">
+                <div class="col-md-4 col-sm-6 mt-3">
+                    <div class="d-flex p-3 help__items">
+                        <span class="text-dark">
+                            <i class="fas fa-user-alt fa-3x">
+                            </i>
+                        </span>
+                        <div class="flex-column ml-3 text-dark">
+                            <h4 class="font-header my-3">Accounts</h4>
+                            <p class="font-body font-size-16">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.consectetur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mt-3">
+                    <div class="d-flex p-3 help__items">
+                        <span class="text-dark">
+                            <i class="fas fa-mobile-alt fa-3x">
+                            </i>
+                        </span>
+                        <div class="flex-column ml-3 text-dark">
+                            <h4 class="font-header my-3">Shoppy eReaders</h4>
+                            <p class="font-body font-size-16">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.consectetur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mt-3">
+                    <div class="d-flex p-3 help__items">
+                        <span class="text-dark">
+                            <i class="fas fa-mobile fa-3x"></i>
+                            </i>
+                        </span>
+                        <div class="flex-column ml-3 text-dark">
+                            <h4 class="font-header my-3">Shoppy Apps</h4>
+                            <p class="font-body font-size-16">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.consectetur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mt-3">
+                    <div class="d-flex p-3 help__items">
+                        <span class="text-dark">
+                            <i class="fas fa-book fa-3x">
+                            </i>
+                        </span>
+                        <div class="flex-column ml-3 text-dark">
+                            <h4 class="font-header my-3">My Books</h4>
+                            <p class="font-body font-size-16">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.consectetur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mt-3">
+                    <div class="d-flex p-3 help__items">
+                        <span class="text-dark">
+                            <i class="fas fa-shopping-cart fa-3x">
+                            </i>
+                        </span>
+                        <div class="flex-column ml-3 text-dark">
+                            <h4 class="font-header my-3">Purchasing</h4>
+                            <p class="font-body font-size-16">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.consectetur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mt-3">
+                    <div class="d-flex p-3 help__items">
+                        <span class="text-dark">
+                            <i class="fas fa-sticky-note fa-3x">
+                            </i>
+                        </span>
+                        <div class="flex-column ml-3 text-dark">
+                            <h4 class="font-header my-3">Guides</h4>
+                            <p class="font-body font-size-16">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.consectetur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER START -->
+        <footer class="container mt-5">
+            <div class="row my-3 p-4">
+                <div class="col-md-6 mt-4 pr-3">
+                    <div class="d-flex justify-content-between">
+                        <div class="help">
+                            <h4 class="my-4 font-header">
+                            <a href="help.html">Help</a>
+                            </h4>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="font-body">Contact us</a>
+                                <a href="#" class="font-body">Account</a>
+                                <a href="#" class="font-body">Shipping</a>
+                                <a href="#" class="font-body">Returns</a>
+                            </div>
+                        </div>
+                        <div class="about">
+                            <h4 class="my-4 font-header">
+                            <a href="about.html">About</a>
+                            </h4>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="font-body">About us</a>
+                                <a href="#" class="font-body">Press</a>
+                                <a href="#" class="font-body">Careers</a>
+                                <a href="#" class="font-body">FAQ</a>
+                            </div>
+                        </div>
+                        <div class="shop">
+                            <h4 class="my-4 font-header">
+                            <a href="cart.html">Shop</a>
+                            </h4>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="font-body">Store</a>
+                                <a href="#" class="font-body">Gift Cards</a>
+                                <a href="#" class="font-body">Student Discount</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 pl-3">
+                    <h4 class="my-4 pl-3 font-header">
+                    Join our list and receive exclusives
+                    </h4>
+                    <div class="input-group p-3">
+                        <input type="text" class="form-control font-body" id="email" placeholder="Email address">
+                        <button class="input-group-append btn font-body" id="subbtn">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5" id="footer__copyright">
+                <span class="mx-auto font-body">Copyright ©2020 All rights reserved | This template is made with by <i class="fab fa-gratipay text-danger"></i> 7WB(Group)</span>
+            </div>
+        </footer>
+        <script src="library/bootstrap/jquery-3.5.1.slim.min.js"></script>
+        <script src="library/bootstrap/popper.min.js"></script>
+        <script src="library/bootstrap/bootstrap.min.js"></script>
+        <script src="js/help.js"></script>
+    </body>
+</html>

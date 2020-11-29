@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="library/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="library/font-awsome/css/all.min.css">
+        <link rel="stylesheet" href="css/glider.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="images/shorticon.png">
+        <title>WB_Shop</title>
+    </head>
+    <body>
+        <!-- HEADER START -->
+        <header id="header">
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarContent">
+                <span><i class="fas fa-stream"></i></span>
+                </button>
+                <div class="col-3" id="header__logo">
+                    <a class="navbar-brand font-header" href="index.html" id="header__logo-text">
+                    WB SHOP</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <div class="col-6">
+                        <ul class="navbar-nav mr-auto" id="header__list">
+                            <li class="nav-item active">
+                                <a class="nav-link font-header" href="new.html">NEW</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="men.html">MEN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="women.html">WOMEN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="accessories.html">ACCESSORIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="help.html">HELP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-3 text-right">
+                    <a href="admin/admin.html">
+                        <i class="fas fa-user-shield" title="Admindashboard"></i>
+                    </a>
+                    <i class="fas fa-search ml-3" id="search" title="Search"></i>
+                    <a href="login.html">
+                        <i class="fas fa-sign-in-alt ml-3" title="CreateAccount & Singin"></i>
+                    </a>
+                    <a href="cart.html">
+                        <i class="fas fa-shopping-cart ml-3" title="shopcart"></i>
+                    </a>
+                    <span id="header__carticon">2</span>
+                </div>
+            </nav>
+        </header>
+        <!-- SHOP SECTION START -->
+        <section id="shop" class="pt-5">
+            <div class="container">
+                <div class="row align-items-center mb-5">
+                    <div class="col-md-7">
+                        <h2 class="mb-3 ml-md-5 font-header">
+                        Shop
+                        </h2>
+                    </div>
+                    <div class="col-md-5" id="sortselect">
+                        <div class="d-flex sort align-items-center justify-content-lg-end">
+                            <span class="mr-5 font-body">Sort by:</span>
+                            <form action="#">
+                                <select class="font-body" id="sortselect__select">
+                                    <option value="" class="font-body">Newest Items</option>
+                                    <option value="1" class="font-body">Best selling</option>
+                                    <option value="2" class="font-body">Price: Ascending</option>
+                                    <option value="3" class="font-body">Price: Descending</option>
+                                    <option value="4" class="font-body">Rating(High to Low)</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-4" id="menu">
+                    <div class="d-flex mb-5 justify-content-between">
+                        <a href="#" class="nav-link text-dark py-0 m-0 font-body">New</a>
+                        <span class="font-body text-black-50">2,919</span>
+                    </div>
+                    <div class="d-flex mb-5 justify-content-between">
+                        <a href="#" class="nav-link text-dark py-0 m-0 font-body">Men</a>
+                        <span class="font-body text-black-50">5,381</span>
+                    </div>
+                    <div class="d-flex mb-5 justify-content-between">
+                        <a href="#" class="nav-link text-dark py-0 m-0 font-body">Women</a>
+                        <span class="font-body text-black-50">5,381</span>
+                    </div>
+                    <div class="d-flex mb-5 justify-content-between">
+                        <a href="#" class="nav-link text-dark py-0 m-0 font-body">Jewelries</a>
+                        <span class="font-body text-black-50">5,381</span>
+                    </div>
+                    <div class="d-flex mb-5 justify-content-between">
+                        <a href="#" class="nav-link text-dark py-0 m-0 font-body">Accessories</a>
+                        <span class="font-body text-black-50">5,381</span>
+                    </div>
+                    <div class="d-flex mb-5 justify-content-between">
+                        <a href="#" class="nav-link text-dark py-0 m-0 font-body">Shoes</a>
+                        <span class="font-body text-black-50">5,381</span>
+                    </div>
+                    <div class="d-flex mb-5 justify-content-between">
+                        <a href="#" class="nav-link text-dark py-0 m-0 font-body">Clothing</a>
+                        <span class="font-body text-black-50">5,381</span>
+                    </div>
+                </div>
+                <!-- photo section start here -->
+                <div class="col-md-8">
+                    <div class="row pl-4 pr-4">
+                        <div class="col-md-4 mt-4">
+                            <div class="panel rounded-0" id="shop__panel">
+                                <a href="#" id="product-image">
+                                    <div class="" id="shop__overlay">
+                                        <button class="btn" id="shop__overlay-cartplus">
+                                        <i class="fas fa-cart-plus"></i>
+                                        </button>
+                                        <button class="btn" id="shop__overlay-view">
+                                        <i class="far fa-eye"></i>
+                                        </button>
+                                    </div>
+                                    <span class="custom-badge font-body" id="panel__new">New</span>
+                                    <img src="images/18.jpg" alt="Image" class="img-fluid">
+                                </a>
+                                <h5 class="text-center mt-3" id="title">
+                                <a href="#" class="font-body">Kiko Linen Slip Dress, Brown</a>
+                                </h5>
+                                <div class="price text-center">
+                                    <span class="font-body">£69.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-4">
+                            <div class="panel rounded-0" id="shop__panel">
+                                <a href="#" id="product-image">
+                                    <div class="" id="shop__overlay">
+                                        <button class="btn" id="shop__overlay-cartplus">
+                                        <i class="fas fa-cart-plus"></i>
+                                        </button>
+                                        <button class="btn" id="shop__overlay-view">
+                                        <i class="far fa-eye"></i>
+                                        </button>
+                                    </div>
+                                    <img src="images/19.jpg" alt="Image" class="img-fluid">
+                                </a>
+                                <h5 class="text-center mt-3" id="title">
+                                <a href="#" class="font-body">Kiko Linen Slip Dress, Brown</a>
+                                </h5>
+                                <div class="price text-center">
+                                    <span class="font-body">£69.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-4">
+                            <div class="panel rounded-0" id="shop__panel">
+                                <a href="#" id="product-image">
+                                    <div class="" id="shop__overlay">
+                                        <button class="btn" id="shop__overlay-cartplus">
+                                        <i class="fas fa-cart-plus"></i>
+                                        </button>
+                                        <button class="btn" id="shop__overlay-view">
+                                        <i class="far fa-eye"></i>
+                                        </button>
+                                    </div>
+                                    <span class="custom-badge font-body" id="panel__sale">Sale</span>
+                                    <img src="images/20.jpg" alt="Image" class="img-fluid">
+                                </a>
+                                <h5 class="text-center mt-3" id="title">
+                                <a href="#" class="font-body">Kiko Linen Slip Dress, Brown</a>
+                                </h5>
+                                <div class="price text-center">
+                                    <span class="font-body">£69.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-5">
+                            <ul id="custom-pagination">
+                                <li><i class="fas fa-arrow-left"></i></li>
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                                <li><i class="fas fa-arrow-right"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER START -->
+        <footer class="container mt-5">
+            <div class="row my-3 p-4">
+                <div class="col-md-6 mt-4 pr-3">
+                    <div class="d-flex justify-content-between">
+                        <div class="help">
+                            <h4 class="my-4 font-header">
+                            <a href="help.html">Help</a>
+                            </h4>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="font-body">Contact us</a>
+                                <a href="#" class="font-body">Account</a>
+                                <a href="#" class="font-body">Shipping</a>
+                                <a href="#" class="font-body">Returns</a>
+                            </div>
+                        </div>
+                        <div class="about">
+                            <h4 class="my-4 font-header">
+                            <a href="about.html">About</a>
+                            </h4>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="font-body">About us</a>
+                                <a href="#" class="font-body">Press</a>
+                                <a href="#" class="font-body">Careers</a>
+                                <a href="#" class="font-body">FAQ</a>
+                            </div>
+                        </div>
+                        <div class="shop">
+                            <h4 class="my-4 font-header">
+                            <a href="cart.html">Shop</a>
+                            </h4>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="font-body">Store</a>
+                                <a href="#" class="font-body">Gift Cards</a>
+                                <a href="#" class="font-body">Student Discount</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 pl-3">
+                    <h4 class="my-4 pl-3 font-header">
+                    Join our list and receive exclusives
+                    </h4>
+                    <div class="input-group p-3">
+                        <input type="text" class="form-control font-body" id="email" placeholder="Email address">
+                        <button class="input-group-append btn font-body" id="subbtn">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5" id="footer__copyright">
+                <span class="mx-auto font-body">Copyright ©2020 All rights reserved | This template is made with by <i class="fab fa-gratipay text-danger"></i> 7WB(Group)</span>
+            </div>
+        </footer>
+        <script src="library/bootstrap/jquery-3.5.1.slim.min.js"></script>
+        <script src="library/bootstrap/popper.min.js"></script>
+        <script src="library/bootstrap/bootstrap.min.js"></script>
+        <script src="js/scandse.js"></script>
+    </body>
+</html>

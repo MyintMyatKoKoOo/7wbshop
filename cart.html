@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="library/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="library/font-awsome/css/all.min.css">
+        <link rel="stylesheet" href="css/glider.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="images/shorticon.png">
+        <title>WB_Shop</title>
+    </head>
+    <body>
+        <!-- HEADER START -->
+        <header id="header">
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarContent">
+                <span><i class="fas fa-stream"></i></span>
+                </button>
+                <div class="col-3" id="header__logo">
+                    <a class="navbar-brand font-header" href="index.html" id="header__logo-text">
+                    WB SHOP</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <div class="col-6">
+                        <ul class="navbar-nav mr-auto" id="header__list">
+                            <li class="nav-item active">
+                                <a class="nav-link font-header" href="new.html">NEW</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="men.html">MEN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="women.html">WOMEN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="accessories.html">ACCESSORIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="help.html">HELP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-3 text-right">
+                    <a href="admin/admin.html">
+                        <i class="fas fa-user-shield" title="Admindashboard"></i>
+                    </a>
+                    <i class="fas fa-search ml-3" id="search" title="Search"></i>
+                    <a href="login.html">
+                        <i class="fas fa-sign-in-alt ml-3" title="CreateAccount & Singin"></i>
+                    </a>
+                    <a href="cart.html">
+                        <i class="fas fa-shopping-cart ml-3" title="shopcart"></i>
+                    </a>
+                    <span id="header__carticon">2</span>
+                </div>
+            </nav>
+        </header>
+        <!-- CART START -->
+        <section class="container mt-5" id="cart">
+            <h3 class="font-header">Cart</h3>
+            <p class="font-body"><a href="index.html" id="cart__home">Home</a>/cart</p>
+        </section>
+        <!-- CART TABLE START -->
+        <div class="container">
+            <table class="table" id="carttable">
+                <tr>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Remove</th>
+                </tr>
+                <tr>
+                    <td id="carttable__image">
+                        <img src="images/5.jpg" alt="" class="img-fluid">
+                    </td>
+                    <td id="carttable__product">
+                        <h3 class="font-body">Top Up T-shirt</h3>
+                    </td>
+                    <td id="carttable__price">
+                        $49.00
+                    </td>
+                    <td id="carttable__quantity">
+                        <div class="d-flex">
+                            <p class="font-body p-2" id="carttable__quantity-plus1">+</p>
+                            <p class="font-body p-2" id="carttable__quantity-num1">0</p>
+                            <p class="font-body p-2" id="carttable__quantity-minus1">-</p>
+                        </div>
+                    </td>
+                    <td id="carttable__total">
+                        $49.00
+                    </td>
+                    <td id="carttable__remove">
+                        <i class="far fa-trash-alt"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="carttable__image">
+                        <img src="images/7.jpg" alt="" class="img-fluid">
+                    </td>
+                    <td id="carttable__product">
+                        <h3 class="font-body">Top Up T-shirt</h3>
+                    </td>
+                    <td id="carttable__price">
+                        $49.00
+                    </td>
+                    <td id="carttable__quantity">
+                        <div class="d-flex">
+                            <p class="font-body p-2" id="carttable__quantity-plus2">+</p>
+                            <p class="font-body p-2" id="carttable__quantity-num2">0</p>
+                            <p class="font-body p-2" id="carttable__quantity-minus2">-</p>
+                        </div>
+                    </td>
+                    <td id="carttable__total">
+                        $49.00
+                    </td>
+                    <td id="carttable__remove">
+                        <i class="far fa-trash-alt"></i>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- ORDER START -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3" id="order">
+                    <div class="form-group">
+                        <input type="text" class="form-control rounded-0 font-body my-3" placeholder="Address">
+                        <input type="number" class="form-control rounded-0 font-body my-3" placeholder="Phone">
+                    </div>
+                    <h4 class="font-header my-2">CART ORDER</h4>
+                    <div class="d-flex justify-content-between mt-3">
+                        <p class="font-body">Total</p>
+                        <p class="font-body">$59.39</p>
+                    </div>
+                    <button class="btn btn-dark font-body float-right my-3" id="order__btn">POST ORDER</button>
+                </div>
+                <div class="col-md-9">
+                    <div class="row" id="payment">
+                        <div class="col-md-3">
+                            <img src="images/kbzQR.png" alt="" id="payment__img">
+                        </div>
+                        <div class="col-md-3 d-flex justify-content-between flex-column">
+                            <img src="" alt="  " id="payment__img2">
+                            <div class="d-flex justify-content-between">
+                                <button class="btn" id="upload__btn">Upload</button>
+                                <button class="btn" id="payment__btn">Payment</button>
+                            </div>
+                        </div>
+                        <input type="file" id="payment__input">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- FOOTER START -->
+        <footer class="container mt-5">
+            <div class="row my-3 p-4">
+                <div class="col-md-6 mt-4 pr-3">
+                    <div class="d-flex justify-content-between">
+                        <div class="help">
+                            <h4 class="my-4 font-header">
+                            <a href="help.html">Help</a>
+                            </h4>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="font-body">Contact us</a>
+                                <a href="#" class="font-body">Account</a>
+                                <a href="#" class="font-body">Shipping</a>
+                                <a href="#" class="font-body">Returns</a>
+                            </div>
+                        </div>
+                        <div class="about">
+                            <h4 class="my-4 font-header">
+                            <a href="about.html">About</a>
+                            </h4>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="font-body">About us</a>
+                                <a href="#" class="font-body">Press</a>
+                                <a href="#" class="font-body">Careers</a>
+                                <a href="#" class="font-body">FAQ</a>
+                            </div>
+                        </div>
+                        <div class="shop">
+                            <h4 class="my-4 font-header">
+                            <a href="cart.html">Shop</a>
+                            </h4>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="font-body">Store</a>
+                                <a href="#" class="font-body">Gift Cards</a>
+                                <a href="#" class="font-body">Student Discount</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 pl-3">
+                    <h4 class="my-4 pl-3 font-header">
+                    Join our list and receive exclusives
+                    </h4>
+                    <div class="input-group p-3">
+                        <input type="text" class="form-control font-body" id="email" placeholder="Email address">
+                        <button class="input-group-append btn font-body" id="subbtn">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5" id="footer__copyright">
+                <span class="mx-auto font-body">Copyright ©2020 All rights reserved | This template is made with by <i class="fab fa-gratipay text-danger"></i> 7WB(Group)</span>
+            </div>
+        </footer>
+        <script src="library/bootstrap/jquery-3.5.1.slim.min.js"></script>
+        <script src="library/bootstrap/popper.min.js"></script>
+        <script src="library/bootstrap/bootstrap.min.js"></script>
+        <script src="js/cart.js"></script>
+    </body>
+</html>

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="library/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="library/font-awsome/css/all.min.css">
+        <link rel="stylesheet" href="css/glider.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="images/shorticon.png">
+        <title>WB_Shop</title>
+    </head>
+    <body>
+        <!-- HEADER START -->
+        <header id="header">
+            <nav class="navbar navbar-expand-lg m-0">
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarContent">
+                <span><i class="fas fa-stream"></i></span>
+                </button>
+                <div class="col-3" id="header__logo">
+                    <a class="navbar-brand font-header" href="index.html" id="header__logo-text">
+                    WB SHOP</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <div class="col-6">
+                        <ul class="navbar-nav mr-auto" id="header__list">
+                            <li class="nav-item active">
+                                <a class="nav-link font-header" href="new.html">NEW</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="men.html">MEN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="women.html">WOMEN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="accessories.html">ACCESSORIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="help.html">HELP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-header" href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-3 text-right">
+                    <a href="admin/admin.html">
+                        <i class="fas fa-user-shield" title="Admindashboard"></i>
+                    </a>
+                    <i class="fas fa-search ml-3" id="search" title="Search"></i>
+                    <a href="login.html">
+                        <i class="fas fa-sign-in-alt ml-3" title="CreateAccount & Singin"></i>
+                    </a>
+                    <a href="cart.html">
+                        <i class="fas fa-shopping-cart ml-3" title="shopcart"></i>
+                    </a>
+                    <span id="header__carticon">2</span>
+                </div>
+            </nav>
+        </header>
+        <!-- BODY START -->
+        <div id="wrapper">
+            <section id="caroimageslide">
+                <div id="carindi" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carindi" data-slide-to="0" class="active"></li>
+                        <li data-target="#carindi" data-slide-to="1"></li>
+                        <li data-target="#carindi" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/14.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/15.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/16.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container" id="ourservice">
+                <div class="row m-0 mt-5">
+                    <div class="col-md-4 mt-4" id="scrollrev">
+                        <div class="font-body text-center" id="ourservice__panel">
+                            <i class="fas fa-truck fa-2x mt-4"></i>
+                            <p class="font-header my-3" id="ourservice__panel-header">WORLDWIDE DELIVERY</p>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4" id="scrollrev">
+                        <div class="font-body text-center" id="ourservice__panel">
+                            <i class="fas fa-shield-alt fa-2x mt-4"></i>
+                            <p class="font-header my-3" id="ourservice__panel-header">SECURE PAYMENTS</p>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4" id="scrollrev">
+                        <div class="font-body text-center" id="ourservice__panel">
+                            <i class="fas fa-bolt fa-2x mt-4"></i>
+                            <p class="font-header my-3" id="ourservice__panel-header">FAST DELIVERY</p>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5" id="items">
+                <div class="row m-0">
+                    <div class="col-md-4 text-center mt-5 items_eff" id="scrollrev">
+                            <div id="items__overlay">
+                                <button class="btn" id="items__overlay-cartplus">
+                                <i class="fas fa-cart-plus"></i>
+                                </button>
+                                <button class="btn" id="items__overlay-view">
+                                <i class="far fa-eye"></i>
+                                </button>
+                            </div>
+                            <span id="items__span1">NEW</span>
+                            <img src="images/2.jpg" alt="" class="img-fluid">
+                        <h3 id="items__title">
+                        <a href="">Lorem ipsum dolor sit amet</a>
+                        </h3>
+                        <div id="items__price">
+                            <span class="text-light">£69.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center mt-5 items_eff" id="scrollrev">
+                            <div id="items__overlay">
+                                <button class="btn" id="items__overlay-cartplus">
+                                <i class="fas fa-cart-plus"></i>
+                                </button>
+                                <button class="btn" id="items__overlay-view">
+                                <i class="far fa-eye"></i>
+                                </button>
+                            </div>
+                            <span id="items__span2">Top</span>
+                            <img src="images/1.jpg" alt="" class="img-fluid">
+                        <h3 id="items__title">
+                        <a href="">Lorem ipsum dolor sit amet</a>
+                        </h3>
+                        <div id="items__price">
+                            <span class="text-light">£69.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center mt-5 items_eff" id="scrollrev">
+                            <div id="items__overlay">
+                                <button class="btn" id="items__overlay-cartplus">
+                                <i class="fas fa-cart-plus"></i>
+                                </button>
+                                <button class="btn" id="items__overlay-view">
+                                <i class="far fa-eye"></i>
+                                </button>
+                            </div>
+                            <img src="images/3.jpg" alt="" class="img-fluid">
+                        <h3 id="items__title">
+                        <a href="">Lorem ipsum dolor sit amet</a>
+                        </h3>
+                        <div id="items__price">
+                            <span class="text-light">£69.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center mt-5 items_eff" id="scrollrev">
+                            <div id="items__overlay">
+                                <button class="btn" id="items__overlay-cartplus">
+                                <i class="fas fa-cart-plus"></i>
+                                </button>
+                                <button class="btn" id="items__overlay-view">
+                                <i class="far fa-eye"></i>
+                                </button>
+                            </div>
+                            <img src="images/4.jpg" alt="" class="img-fluid">
+                        <h3 id="items__title">
+                        <a href="">Lorem ipsum dolor sit amet</a>
+                        </h3>
+                        <div id="items__price">
+                            <span class="text-light">£69.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center mt-5 items_eff" id="scrollrev">
+                            <div id="items__overlay">
+                                <button class="btn" id="items__overlay-cartplus">
+                                <i class="fas fa-cart-plus"></i>
+                                </button>
+                                <button class="btn" id="items__overlay-view">
+                                <i class="far fa-eye"></i>
+                                </button>
+                            </div>
+                            <img src="images/5.jpg" alt="" class="img-fluid">
+                        <h3 id="items__title">
+                        <a href="">Lorem ipsum dolor sit amet</a>
+                        </h3>
+                        <div id="items__price">
+                            <span class="text-light">£69.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center mt-5 items_eff" id="scrollrev">
+                            <div id="items__overlay">
+                                <button class="btn" id="items__overlay-cartplus">
+                                <i class="fas fa-cart-plus"></i>
+                                </button>
+                                <button class="btn" id="items__overlay-view">
+                                <i class="far fa-eye"></i>
+                                </button>
+                            </div>
+                            <img src="images/6.jpg" alt="" class="img-fluid">
+                        <h3 id="items__title">
+                        <a href="">Lorem ipsum dolor sit amet</a>
+                        </h3>
+                        <div id="items__price">
+                            <span class="text-light">£69.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5 mb-5" id="limited">
+                <div id="limited__img">
+                </div>
+                <div class="p-3" id="limited__content">
+                    <h2 class="font-header">Week Deal</h2>
+                    <p class="font-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora corrupti incidunt aliquid odit explicabo molestias suscipit ex porro veritatis non!</p>
+                    <button class="btn rounded-0 font-body mt-5" id="limited__content-btn">SHOP NOW</button>
+                </div>
+            </div>
+            <div class="container mt-5" id="popular">
+                <button class="glider-prev" id="popular__gilderprev">
+                <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="glider" id="popular__glider">
+                    <div class="ml-4" id="popular__glider-items">
+                        <img src="images/8.jpg" alt="" class="img-fluid">
+                        <div class="card-body text-center">
+                            <p class="font-body">
+                                Triangle Low White-Black
+                            </p>
+                            <span>£29.00</span>
+                        </div>
+                    </div>
+                    <div class="ml-4" id="popular__glider-items">
+                        <img src="images/9.jpg" alt="" class="img-fluid">
+                        <div class="card-body text-center">
+                            <p class="font-body">
+                                Triangle Low White-Black
+                            </p>
+                            <span>£29.00</span>
+                        </div>
+                    </div>
+                    <div class="ml-4" id="popular__glider-items">
+                        <img src="images/10.jpg" alt="" class="img-fluid">
+                        <div class="card-body text-center">
+                            <p class="font-body">
+                                Triangle Low White-Black
+                            </p>
+                            <span>£29.00</span>
+                        </div>
+                    </div>
+                    <div class="ml-4" id="popular__glider-items">
+                        <img src="images/11.jpg" alt="" class="img-fluid">
+                        <div class="card-body">
+                            <p class="font-body">
+                                Triangle Low White-Black
+                            </p>
+                            <span>£29.00</span>
+                        </div>
+                    </div>
+                    <div class="ml-4" id="popular__glider-items">
+                        <img src="images/12.jpg" alt="" class="img-fluid">
+                        <div class="card-body text-center">
+                            <p class="font-body">
+                                Triangle Low White-Black
+                            </p>
+                            <span>£29.00</span>
+                        </div>
+                    </div>
+                    <div class="ml-4" id="popular__glider-items">
+                        <img src="images/13.jpg" alt="" class="img-fluid">
+                        <div class="card-body text-center">
+                            <p class="font-body">
+                                Triangle Low White-Black
+                            </p>
+                            <span>£29.00</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="glider-next" id="popular__glidernext">
+                <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="glider-dots" id="dots"></div>
+            </div>
+            <footer class="container mt-5">
+                <div class="row m-0 my-3 p-4">
+                    <div class="col-md-6 mt-4 pr-3">
+                        <div class="d-flex justify-content-between">
+                            <div class="help">
+                                <h4 class="my-4 font-header">
+                                <a href="help.html">Help</a>
+                                </h4>
+                                <div class="d-flex flex-column">
+                                    <a href="#" class="font-body">Contact us</a>
+                                    <a href="#" class="font-body">Account</a>
+                                    <a href="#" class="font-body">Shipping</a>
+                                    <a href="#" class="font-body">Returns</a>
+                                </div>
+                            </div>
+                            <div class="about">
+                                <h4 class="my-4 font-header">
+                                <a href="about.html">About</a>
+                                </h4>
+                                <div class="d-flex flex-column">
+                                    <a href="#" class="font-body">About us</a>
+                                    <a href="#" class="font-body">Press</a>
+                                    <a href="#" class="font-body">Careers</a>
+                                    <a href="#" class="font-body">FAQ</a>
+                                </div>
+                            </div>
+                            <div class="shop">
+                                <h4 class="my-4 font-header">
+                                <a href="cart.html">Shop</a>
+                                </h4>
+                                <div class="d-flex flex-column">
+                                    <a href="#" class="font-body">Store</a>
+                                    <a href="#" class="font-body">Gift Cards</a>
+                                    <a href="#" class="font-body">Student Discount</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-4 pl-3">
+                        <h4 class="my-4 pl-3 font-header">
+                        Join our list and receive exclusives
+                        </h4>
+                        <div class="input-group p-3">
+                            <input type="text" class="form-control font-body" id="email" placeholder="Email address">
+                            <button class="input-group-append btn font-body" id="subbtn">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-0 my-5" id="footer__copyright">
+                    <span class="mx-auto font-body">Copyright ©2020 All rights reserved | This template is made with by <i class="fab fa-gratipay text-danger"></i> 7WB(Group)</span>
+                </div>
+            </footer>
+        </div>
+        <script src="library/bootstrap/jquery-3.5.1.slim.min.js"></script>
+        <script src="library/bootstrap/popper.min.js"></script>
+        <script src="library/bootstrap/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
