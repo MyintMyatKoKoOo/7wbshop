@@ -30,8 +30,7 @@ function scrollreveal() {
         distance: "100px",
         origin: "bottom",
         delay: 700,
-        duration: 700,
-        reset: true
+        duration: 700
     };
     ScrollReveal().reveal('#scrollrev', slideUp);
 }
