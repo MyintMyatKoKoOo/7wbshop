@@ -654,21 +654,23 @@ th {
 #inputgroup{
     overflow-x:auto; 
 }
-#inputgroup>input {
+#inputgroup>input,#inputgroup__passwarp>input{
     font-family: 'Font Awesome 5 Free', FontAwesome;
     width: 400px;
     border-radius: 0px;
     margin-bottom: 20px;
     background-color: #ececec;
 }
-#inputgroup__paswarp{
+#inputgroup__passwarp{
     position: relative;
 }
-#inpshow{
-    position: relative;
-    left: -10px;
-    right: -20px;
-    top: -50px;
+#inputgroup__passicon{
+    font-family:'Font Awesome 5 Free', FontAwesome;
+    position:relative;
+    top:32px;
+    left:10px;
+    cursor:pointer;
+    display:inline-block;
 }
 #inputgroup>input:focus {
     box-shadow: 2px 2px 3px #ecec;

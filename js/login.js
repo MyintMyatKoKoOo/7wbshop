@@ -2,10 +2,12 @@ $(document).ready(function() {
     scrollchg();
     loginregister();
     search();
-//    passwordshow();
+    passwordshow();
 });
 function passwordshow(){
-    $("#inputgroup__pasw")
+    $("#inputgroup__passicon").click(function(){
+        alert("!@#");
+    })
 }
 
 function scrollchg() {
