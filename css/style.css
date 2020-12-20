@@ -662,6 +662,7 @@ th {
     background-color: #ececec;
 }
 #inputgroup__passwarp{
+    margin-top:-20px;
     position: relative;
 }
 #inputgroup__passicon{
@@ -670,7 +671,9 @@ th {
     top:32px;
     left:10px;
     cursor:pointer;
-    display:inline-block;
+    color:#6c757d;
+    left:360px;
+    visibility: hidden;
 }
 #inputgroup>input:focus {
     box-shadow: 2px 2px 3px #ecec;

@@ -5,8 +5,25 @@ $(document).ready(function() {
     passwordshow();
 });
 function passwordshow(){
+    $("#inputgroup__passwarp>input").keyup(function(){
+       if($("#inputgroup__passwarp>input").val() != ""){
+           $("#inputgroup__passwarp #inputgroup__passicon").css("visibility","visible");
+       }else{
+           $("#inputgroup__passwarp #inputgroup__passicon").css("visibility","hidden");
+       }
+    });
     $("#inputgroup__passicon").click(function(){
-        alert("!@#");
+        let status=false;
+        if(status){
+            $("#inputgroup__passwarp>input").attr("type","password");
+            $("#inputgroup__passwarp #inputgroup__passicon").html("&#xf070");
+            status=false;
+        }else{
+            $("#inputgroup__passwarp>input").attr("type","text");
+            $("#inputgroup__passwarp #inputgroup__passicon").html("&#xf06e");
+            status=true;
+        }
+        
     })
 }
 
