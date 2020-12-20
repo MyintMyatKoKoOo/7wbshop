@@ -661,7 +661,15 @@ th {
     margin-bottom: 20px;
     background-color: #ececec;
 }
-
+#inputgroup__paswarp{
+    position: relative;
+}
+#inpshow{
+    position: relative;
+    left: -10px;
+    right: -20px;
+    top: -50px;
+}
 #inputgroup>input:focus {
     box-shadow: 2px 2px 3px #ecec;
 }

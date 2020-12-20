@@ -2,7 +2,11 @@ $(document).ready(function() {
     scrollchg();
     loginregister();
     search();
+//    passwordshow();
 });
+function passwordshow(){
+    $("#inputgroup__pasw")
+}
 
 function scrollchg() {
     $(window).scroll(function() {
