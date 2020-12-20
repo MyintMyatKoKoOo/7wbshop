@@ -655,7 +655,7 @@ th {
     overflow-x:auto; 
 }
 #inputgroup>input {
-    font-family: 'Font Awesome 6 Free', FontAwesome;
+    font-family: 'Font Awesome 5 Free', FontAwesome;
     width: 400px;
     border-radius: 0px;
     margin-bottom: 20px;
