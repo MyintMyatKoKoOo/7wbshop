@@ -654,18 +654,18 @@ th {
 #inputgroup{
     overflow-x:auto; 
 }
-#inputgroup>input,#inputgroup__passwarp>input{
+#inputgroup>input,#inputgroup__passwarp>input,#inputgroup__passwarp1>input{
     font-family: 'Font Awesome 5 Free', FontAwesome;
     width: 400px;
     border-radius: 0px;
     margin-bottom: 20px;
     background-color: #ececec;
 }
-#inputgroup__passwarp{
+#inputgroup__passwarp,#inputgroup__passwarp1{
     margin-top:-20px;
     position: relative;
 }
-#inputgroup__passicon{
+#inputgroup__passicon,#inputgroup__passicon1{
     font-family:'Font Awesome 5 Free', FontAwesome;
     position:relative;
     top:32px;
@@ -675,7 +675,7 @@ th {
     left:360px;
     visibility: hidden;
 }
-#inputgroup__passicon i{
+#inputgroup__passicon,#inputgroup__passicon1 i{
     color:#6c757d;
 }
 #inputgroup>input:focus {
