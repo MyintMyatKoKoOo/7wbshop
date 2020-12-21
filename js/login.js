@@ -84,7 +84,7 @@ function search() {
 function loginregister() {
     if ($("#lrsys_btn").length) {
         $("#lrsys_btn").click(function() {
-            if ($("#lrsys_btn").text() == "Sing In") {
+            if ($("#lrsys_btn").text() == "Sign In") {
                 $("#lrsys__wrap").css({
                     "margin-left": "568px"
                 });
@@ -93,7 +93,7 @@ function loginregister() {
                 $("#lrsys__wrap").css({
                     "margin-left": "0px"
                 });
-                $("#lrsys_btn").text("Sing In");
+                $("#lrsys_btn").text("Sign In");
             }
 
         });
