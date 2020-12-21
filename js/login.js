@@ -16,14 +16,13 @@ function passwordshow(){
         
         if($("#inputgroup__passwarp>input").attr("type")==="password"){
             $("#inputgroup__passwarp>input").attr("type","text");
-            $("#inputgroup__passwarp #inputgroup__passicon").html("<i class="far fa-eye"></i>");
-           
+            $("#inputgroup__passwarp #inputgroup__passicon").html("<i class='far fa-eye'></i>");
         }else{
             $("#inputgroup__passwarp>input").attr("type","password");
-            $("#inputgroup__passwarp #inputgroup__passicon").html("<i class="far fa-eye-slash"></i>");
+            $("#inputgroup__passwarp #inputgroup__passicon").html("<i class='far fa-eye-slash'></i>");
         }
-        
-    })
+     
+    });
 }
 
 function scrollchg() {
