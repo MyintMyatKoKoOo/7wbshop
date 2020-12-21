@@ -16,12 +16,11 @@ function passwordshow(){
         
         if($("#inputgroup__passwarp>input").attr("type")==="password"){
             $("#inputgroup__passwarp>input").attr("type","text");
-            $("#inputgroup__passwarp #inputgroup__passicon").text("&#xf070;");
+            $("#inputgroup__passwarp #inputgroup__passicon").html("<i class="far fa-eye"></i>");
            
         }else{
             $("#inputgroup__passwarp>input").attr("type","password");
-            $("#inputgroup__passwarp #inputgroup__passicon").text("&#xf06e;");
-           
+            $("#inputgroup__passwarp #inputgroup__passicon").html("<i class="far fa-eye-slash"></i>");
         }
         
     })
