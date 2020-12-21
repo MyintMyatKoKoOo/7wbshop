@@ -675,6 +675,9 @@ th {
     left:360px;
     visibility: hidden;
 }
+#inputgroup__passicon i{
+    color:#6c757d;
+}
 #inputgroup>input:focus {
     box-shadow: 2px 2px 3px #ecec;
 }
