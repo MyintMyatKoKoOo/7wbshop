@@ -8,10 +8,10 @@ function passwordshow(){
     $("#inputgroup__passwarp>input").keyup(function(){
        if($("#inputgroup__passwarp>input").val() != ""){
            $("#inputgroup__passwarp #inputgroup__passicon").css("visibility","visible");
-           $("#inputgroup__passwarp1 #inputgroup__passicon1").css("visibility","visible");
+           
        }else{
            $("#inputgroup__passwarp #inputgroup__passicon").css("visibility","hidden");
-           $("#inputgroup__passwarp1 #inputgroup__passicon1").css("visibility","hidden");
+       
        }
     });
     $("#inputgroup__passicon").click(function(){
@@ -19,14 +19,37 @@ function passwordshow(){
         if($("#inputgroup__passwarp>input").attr("type")==="password"){
             $("#inputgroup__passwarp>input").attr("type","text");
             $("#inputgroup__passwarp #inputgroup__passicon").html("<i class='far fa-eye'></i>");
-            $("#inputgroup__passwarp1 #inputgroup__passicon1").html("<i class='far fa-eye'></i>");
+          
         }else{
             $("#inputgroup__passwarp>input").attr("type","password");
             $("#inputgroup__passwarp #inputgroup__passicon").html("<i class='far fa-eye-slash'></i>");
-             $("#inputgroup__passwarp1 #inputgroup__passicon1").html("<i class='far fa-eye-slash'></i>");
+ 
         }
      
     });
+       $("#inputgroup__passwarp1>input").keyup(function(){
+       if($("#inputgroup__passwarp1>input").val() != ""){
+           $("#inputgroup__passwarp1 #inputgroup__passicon1").css("visibility","visible");
+           
+       }else{
+           $("#inputgroup__passwarp1 #inputgroup__passicon1").css("visibility","hidden");
+       
+       }
+    });
+    $("#inputgroup__passicon1").click(function(){
+        
+        if($("#inputgroup__passwarp1>input").attr("type")==="password"){
+            $("#inputgroup__passwarp1>input").attr("type","text");
+            $("#inputgroup__passwarp1 #inputgroup__passicon1").html("<i class='far fa-eye'></i>");
+          
+        }else{
+            $("#inputgroup__passwarp1>input").attr("type","password");
+            $("#inputgroup__passwarp1 #inputgroup__passicon1").html("<i class='far fa-eye-slash'></i>");
+ 
+        }
+     
+    });
+    
 }
 
 function scrollchg() {
