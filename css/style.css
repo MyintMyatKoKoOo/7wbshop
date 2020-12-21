@@ -675,7 +675,7 @@ th {
     left:360px;
     visibility: hidden;
 }
-#inputgroup__passicon,#inputgroup__passicon1 i{
+#inputgroup__passicon i,#inputgroup__passicon1 i{
     color:#6c757d;
 }
 #inputgroup>input:focus {
