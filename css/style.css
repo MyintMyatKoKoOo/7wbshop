@@ -233,12 +233,7 @@ header i {
 }
 
 #limited__content {
-    position: absolute;
-    width: 400px;
-    height: 200px;
-    background-color: #fff;
-    top: 45%;
-    left: 40px;
+   position:absolute;width:400px;height:220px;background-color:#fff;top:45%;left:40px;
 }
 
 #limited__content-btn {
@@ -654,30 +649,14 @@ th {
 #inputgroup{
     overflow-x:auto; 
 }
-#inputgroup>input,#inputgroup__passwarp>input,#inputgroup__passwarp1>input{
+#inputgroup>input {
     font-family: 'Font Awesome 5 Free', FontAwesome;
     width: 400px;
     border-radius: 0px;
     margin-bottom: 20px;
     background-color: #ececec;
 }
-#inputgroup__passwarp,#inputgroup__passwarp1{
-    margin-top:-20px;
-    position: relative;
-}
-#inputgroup__passicon,#inputgroup__passicon1{
-    font-family:'Font Awesome 5 Free', FontAwesome;
-    position:relative;
-    top:32px;
-    left:10px;
-    cursor:pointer;
-    color:#6c757d;
-    left:360px;
-    visibility: hidden;
-}
-#inputgroup__passicon i,#inputgroup__passicon1 i{
-    color:#6c757d;
-}
+
 #inputgroup>input:focus {
     box-shadow: 2px 2px 3px #ecec;
 }
@@ -833,7 +812,7 @@ th {
 #adminside__box{
     border-bottom:2px solid #ecec; 
     border-right:0px solid #ecec; 
-    height:110px;
+    height:115px;
     cursor: pointer;
     background-color: #ececec;
     box-shadow: 1px 1px 3px #ecec;
