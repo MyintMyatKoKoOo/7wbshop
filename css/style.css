@@ -791,7 +791,7 @@ th {
 /*ADMIN START*/
 #adminside{
     display:flex;
-    flex-direction:column-reverse;
+    flex-direction:column;
     position: fixed;
     top:10%;
     left: 0;
